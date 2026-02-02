@@ -81,3 +81,4 @@ class Player:
     def __init__(self, name: str, score: int = 0) -> None:
         self.name = name
         self.score = score
+        Player.players.append(self)
