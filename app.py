@@ -62,9 +62,9 @@ class Dice_Roller:
                 score += 100
             if die == 5:
                 score += 50
-
             else:
                 score += 0
+
         return score
 
     def get_total(self) -> int:
